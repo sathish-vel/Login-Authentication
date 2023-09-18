@@ -1,0 +1,99 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #754ef9;
+    }
+
+    .container {
+        background-color: #fdfdfd;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+    .container {
+        width: 550px;
+    }
+
+    .header {
+        padding: 20px 40px;
+    }
+
+    .header h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .form {
+        padding: 30px 40px;
+    }
+
+    .form-content {
+        position: relative;
+    }
+
+    .form-content label {
+        font-size: 1.2rem;
+    }
+    .form-content input {
+        height: 3rem;
+    }
+
+    .form-content i {
+        visibility: hidden;
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        font-size: 1.5rem;
+    }
+
+    .form-content.success input {
+        border-color: #2ecc71;
+    }
+
+    .form-content.error input {
+        border-color: red;
+    }
+
+    .form-content.success i.bxs-check-circle {
+        color: #2ecc71;
+        visibility: visible;
+    }
+
+    .form-content.error i.bxs-error-circle {
+        color: red;
+        visibility: visible;
+    }
+
+    .form-content span {
+        color: red;
+        visibility: hidden;
+        font-size: .8rem;
+    }
+
+    .submit-btn {
+        color: #ffffff;
+        height: 50px;
+        width: 100%;
+        background-color: #754ef9;
+        transition: 0.5s ease-in-out;
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 10px;
+    }
+
+    .submit-btn:hover {
+        background-color: #754ef9;
+        color: black;
+    }
+
+    .form-content.error span {
+        visibility: visible;
+    }
